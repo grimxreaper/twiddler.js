@@ -1,0 +1,85 @@
+/* These CSS rules apply to the <html>, <body>, and <div id="app"> HTML elements in index.html */
+html, body, #app {
+  height: 100%;
+  width: 100%;
+}
+
+/* Continue building out the CSS styling for your Twiddler app below! We got you started by
+providing a space for you to apply styles to your app's outermost HTML element - the #app itself. */
+
+body {
+  background-color: rgb(177 151 211 / 25%);
+}
+#app {
+  color: black;
+  text-align: center;
+
+  /*list-style: inside; not sure if this is working?*/
+}
+
+h1 {
+  font-family: 'Prata', serif;
+  font-weight: 400;
+  color: #c2e9ea;
+  text-transform: lowercase;
+  font-size: 4em;
+
+}
+#update-feed {
+  font-family: 'Tajawal', sans-serif;
+  border: #f9ff7f;
+  border-width: 20px;
+  color: #f891eb;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  border-radius: 40px;
+  margin: 2px;
+  text-transform: lowercase;
+  height: 38px;
+  width: 100px;
+  margin-bottom: 20px;
+  background-color: #79b4c5ed;
+  font-size: 15px;
+  list-style: none;
+
+}
+.username {
+  color: #081a1a69;
+  text-decoration: underline;
+  font-family: 'Nanum Myeongjo', serif;
+  text-decoration: underline;
+  padding: 7px;
+}
+
+.message {
+  padding: 5px;
+  font-family: 'Nanum Myeongjo', serif;
+  margin: 10px;
+  width: auto;
+  background-color: #d1d5fa;
+  border-radius: 5px;
+
+}
+
+.tweet {
+  background: border-box;
+    background-color: #fff1f7a6;
+    margin: 10px;
+    padding: 5px;
+    width: 630px;
+    height: 70px;
+    border-radius: 10px;
+    align-items: center;
+    display: inline-flex;
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+  padding: 3px;
+  color: #f891eb;
+}
+
+.timestamp {
+  color: #d0d4fd;
+  font-family: 'Nanum Myeongjo', serif;
+}
